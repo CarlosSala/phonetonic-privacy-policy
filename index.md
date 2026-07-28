@@ -6,7 +6,7 @@ description: "Privacy Policy for the PhoneTonic Android application"
 
 # Privacy Policy for PhoneTonic
 
-**Last updated: July 23, 2026**
+**Last updated: July 28, 2026**
 
 ## 1. Introduction
 
@@ -23,15 +23,15 @@ PhoneTonic stores certain information locally so that its features can operate.
 This information may include:
 
 - Notes created, edited, or saved by you.
-- `Intent Actions` parameters, such as phone numbers, email addresses, message content, web addresses, and text prepared for sharing.
+- **Predefined Actions** parameters, such as phone numbers, email addresses, message content, web addresses, and text prepared for sharing.
 - Application preferences, including the selected light or dark theme.
 - Other locally stored settings required to preserve the application’s configuration.
 
 This information is stored in PhoneTonic’s private application storage.
 
-PhoneTonic does not intentionally send the contents of your notes or `Intent Actions` parameters to CarlosSalaDev or Firebase. However, this information may leave the device when:
+PhoneTonic does not intentionally send the contents of your notes or **Predefined Actions** parameters to CarlosSalaDev or Firebase. However, this information may leave the device when:
 
-- You intentionally execute an `Intent Action`.
+- You intentionally execute a **Predefined Action**.
 - You send information through an external application.
 - Android performs a backup or device transfer, as described below.
 
@@ -65,7 +65,7 @@ PhoneTonic uses Firebase services provided by Google. Depending on the Firebase 
 
 Google Analytics collects approximate location, device information, user counts, and session statistics through its default implementation. Approximate location may be derived from network information such as an IP address; PhoneTonic does not obtain GPS coordinates through Analytics.
 
-PhoneTonic does not intentionally send the text of your notes, saved messages, configured phone numbers, email content, or other `Intent Actions` parameters to Firebase as custom Analytics events, user identifiers, Crashlytics custom keys, or custom logs.
+PhoneTonic does not intentionally send the text of your notes, saved messages, configured phone numbers, email content, or other **Predefined Actions** parameters to Firebase as custom Analytics events, user identifiers, Crashlytics custom keys, or custom logs.
 
 ## 5. How Automatically Collected Information Is Used
 
@@ -91,7 +91,7 @@ Google Analytics helps CarlosSalaDev understand the general use of the applicati
 
 Analytics collection is enabled by default in the current version of PhoneTonic. PhoneTonic does not currently provide an in-app control for disabling Analytics collection.
 
-PhoneTonic does not intentionally create custom Analytics events containing notes, messages, email addresses, phone numbers, or other content entered in `Intent Actions`.
+PhoneTonic does not intentionally create custom Analytics events containing notes, messages, email addresses, phone numbers, or other content entered in **Predefined Actions**.
 
 ### 6.2 Firebase Crashlytics
 
@@ -106,7 +106,7 @@ Crashlytics automatically collects information such as:
 - Session and quality information provided through related Firebase services.
 - Analytics events used as breadcrumbs to describe actions occurring immediately before a crash.
 
-PhoneTonic does not intentionally attach notes, `Intent Actions` content, phone numbers, email addresses, or free-text user identifiers to Crashlytics reports.
+PhoneTonic does not intentionally attach notes, **Predefined Actions** content, phone numbers, email addresses, or free-text user identifiers to Crashlytics reports.
 
 Firebase distinguishes between information automatically collected by Crashlytics and custom keys, logs, identifiers, and non-fatal events that a developer may optionally add.
 
@@ -155,9 +155,9 @@ PhoneTonic does not use the phone permission to:
 
 The configured phone number remains stored locally unless it is included in an Android backup or intentionally passed to the phone application when you execute the action.
 
-## 9. Intent Actions and External Applications
+## 9. Predefined Actions and External Applications
 
-PhoneTonic includes the following `Intent Actions`:
+PhoneTonic includes the following **Predefined Actions**:
 
 - `Send Email`.
 - `Send SMS`.
@@ -191,7 +191,7 @@ PhoneTonic allows Android backup and device-transfer features.
 Depending on your Android version, device manufacturer, Google Account settings, backup provider, and personal preferences, Android may back up or transfer eligible PhoneTonic data, including:
 
 - Notes.
-- `Intent Actions` parameters.
+- **Predefined Actions** parameters.
 - Application preferences.
 - Locally stored configuration files.
 - Application databases.
@@ -220,7 +220,7 @@ This information may be used to:
 - Review feedback or feature suggestions.
 - Maintain reasonable records of support communications.
 
-PhoneTonic does not automatically send support emails, notes, `Intent Actions` parameters, diagnostic files, or other personal content to CarlosSalaDev. You decide whether to send a message and what information to include.
+PhoneTonic does not automatically send support emails, notes, **Predefined Actions** parameters, diagnostic files, or other personal content to CarlosSalaDev. You decide whether to send a message and what information to include.
 
 Do not send passwords, payment-card information, authentication codes, or other highly sensitive information through the support email.
 
@@ -234,19 +234,19 @@ Firebase states that it does not transfer the information described in its Andro
 
 Information may also be transferred:
 
-- To an external application when you intentionally execute an `Intent Action`.
+- To an external application when you intentionally execute a **Predefined Action**.
 - Through Android backup or device-transfer services, according to your settings.
 - To your email provider and CarlosSalaDev when you voluntarily contact support.
 - When necessary to comply with applicable law, legal process, or a valid governmental request.
 - When reasonably necessary to protect legal rights, security, the integrity of PhoneTonic, or the safety of other persons.
 
-PhoneTonic does not use an independent backend operated by CarlosSalaDev to receive notes, `Intent Actions` content, or other locally stored user content.
+PhoneTonic does not use an independent backend operated by CarlosSalaDev to receive notes, **Predefined Actions** content, or other locally stored user content.
 
 ## 13. Data Retention and Deletion
 
 ### 13.1 Locally Stored Data
 
-Notes, preferences, and `Intent Actions` parameters generally remain on the device until you:
+Notes, preferences, and **Predefined Actions** parameters generally remain on the device until you:
 
 - Edit or delete them within PhoneTonic.
 - Clear PhoneTonic’s storage through Android settings.
@@ -290,7 +290,7 @@ These measures include:
 
 Firebase states that the end-user information described in its Android data-disclosure documentation is encrypted in transit using HTTPS.
 
-No method of storage or transmission can be guaranteed to be completely secure. You should avoid storing highly sensitive information in `Notes` or `Intent Actions` unless you understand the risks related to device access, backups, sharing, and external applications.
+No method of storage or transmission can be guaranteed to be completely secure. You should avoid storing highly sensitive information in `Notes` or **Predefined Actions** unless you understand the risks related to device access, backups, sharing, and external applications.
 
 ## 15. Children’s Privacy
 
@@ -309,7 +309,7 @@ If you believe that a child has voluntarily sent personal information to the sup
 
 You can control certain information and features by:
 
-- Choosing what content to save in `Notes` and `Intent Actions`.
+- Choosing what content to save in `Notes` and **Predefined Actions**.
 - Editing or deleting locally stored content.
 - Denying the `CALL_PHONE` permission and using `Dial Number` instead.
 - Deciding whether to complete or cancel an action after an external application opens.
@@ -347,6 +347,6 @@ Sections may be added, removed, or expanded as PhoneTonic evolves. This Policy w
 
 For privacy questions, support requests, error reports, or feedback, contact:
 
-**Developer:** CarlosSalaDev  
-**Application:** PhoneTonic  
-**Email:** [carlossala.apps@gmail.com](mailto:carlossala.apps@gmail.com)
+- **Developer:** CarlosSalaDev
+- **Application:** PhoneTonic
+- **Email:** carlossala.apps@gmail.com
