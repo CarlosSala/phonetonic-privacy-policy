@@ -37,9 +37,9 @@ PhoneTonic does not intentionally send the contents of your notes or **Predefine
 
 ## 3. Information Accessed or Displayed by PhoneTonic
 
-The `SystemInfo` section displays technical information provided by Android, such as the device manufacturer, model, Android version, and other system information.
+The **System Information** section displays technical information provided by Android, such as the device manufacturer, model, Android version, and other system information.
 
-PhoneTonic displays this information for your reference and does not intentionally upload the complete contents of the `SystemInfo` screen to a server operated by CarlosSalaDev.
+PhoneTonic displays this information for your reference and does not intentionally upload the complete contents of the **System Information** screen to a server operated by CarlosSalaDev.
 
 PhoneTonic does not request access to GPS or precise location, and it does not request permission to access:
 
