@@ -4,22 +4,23 @@ title: "PhoneTonic Privacy Policy"
 description: "Privacy Policy for the PhoneTonic Android application"
 ---
 
-# {{ site.data.policy.en.title | replace: '%1$s', 'PhoneTonic' }}
+<script>
+(function() {
+  var available = {{ site.data.policy.languages | jsonify }};
+  var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
+  if (lang !== "en" && available.indexOf(lang) !== -1) {
+    window.location.replace("/phonetonic-privacy-policy/" + lang + "/");
+  }
+})();
+</script>
 
-**{{ site.data.policy.en.last_updated_label | replace: '%1$s', site.data.policy.en.last_updated_date }}**
+<p style="font-size: 0.9em; color: #57606a;">
+  {% for l in site.data.policy.languages %}
+    {% unless l == "en" %}
+      <a href="/phonetonic-privacy-policy/{{ l }}/">{{ l | upcase }}</a>
+      {% unless forloop.last %} · {% endunless %}
+    {% endunless %}
+  {% endfor %}
+</p>
 
-{% for block in site.data.policy.en.blocks %}
-{% if block.type == 'section_title' %}
-## {{ block.text | replace: '%1$s', 'PhoneTonic' }}
-{% elsif block.type == 'subsection_title' %}
-### {{ block.text | replace: '%1$s', 'PhoneTonic' }}
-{% elsif block.type == 'paragraph' %}
-{{ block.text | replace: '%1$s', 'PhoneTonic' }}
-{% elsif block.type == 'bullet_list' %}
-{% for item in block.items %}
-- {{ item | replace: '%1$s', 'PhoneTonic' }}
-{% endfor %}
-{% elsif block.type == 'email_link' %}
-**{{ block.label }}:** [{{ block.email }}](mailto:{{ block.email }})
-{% endif %}
-{% endfor %}
+{% include policy_body.md lang="en" %}
