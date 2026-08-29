@@ -1,6 +1,6 @@
 version: 1
 last_updated: "2026-07-28"
-en:
+languages: ["en"]
   title: "Privacy Policy for %1$s"
   last_updated_label: "Last updated: %1$s"
   last_updated_date: "July 28, 2026"
