@@ -1,10 +1,10 @@
 version: 1
 last_updated: "2026-07-28"
 languages: ["en"]
-  title: "Privacy Policy for %1$s"
-  last_updated_label: "Last updated: %1$s"
-  last_updated_date: "July 28, 2026"
-  blocks:
+title: "Privacy Policy for %1$s"
+last_updated_label: "Last updated: %1$s"
+last_updated_date: "July 28, 2026"
+blocks:
     - type: section_title
       text: "1. Introduction"
     - type: paragraph
