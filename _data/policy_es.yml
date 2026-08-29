@@ -1,393 +1,391 @@
 version: 1
 last_updated: "2026-07-28"
 languages: ["es"]
-title: "Política de Privacidad para %1$s"
-last_updated_label: "Última actualización: %1$s"
-last_updated_date: "28 de julio de 2026"
-blocks:
-- type: section_title
-text: "1. Introducción"
-- type: paragraph
-text: "%1$s es una aplicación de Android desarrollada y publicada por CarlosSalaDev."
-- type: paragraph
-text: "Esta Política de Privacidad explica cómo %1$s accede, almacena, recopila, utiliza y transfiere información cuando utilizas la aplicación. También describe cómo Google Firebase, las funciones del sistema Android, los servicios de copia de seguridad, las aplicaciones externas y las comunicaciones de soporte pueden procesar información relacionada con %1$s."
-- type: paragraph
-text: "%1$s no requiere registro, no crea cuentas de usuario y no opera su propio servidor remoto ni servicio de sincronización en la nube propio."
+  title: "Política de Privacidad para %1$s"
+  last_updated_label: "Última actualización: %1$s"
+  last_updated_date: "28 de julio de 2026"
+  blocks:
+    - type: section_title
+      text: "1. Introducción"
+    - type: paragraph
+      text: "%1$s es una aplicación de Android desarrollada y publicada por CarlosSalaDev."
+    - type: paragraph
+      text: "Esta Política de Privacidad explica cómo %1$s accede, almacena, recopila, utiliza y transfiere información cuando utilizas la aplicación. También describe cómo Google Firebase, las funciones del sistema Android, los servicios de copia de seguridad, las aplicaciones externas y las comunicaciones de soporte pueden procesar información relacionada con %1$s."
+    - type: paragraph
+      text: "%1$s no requiere registro, no crea cuentas de usuario y no opera su propio servidor remoto ni servicio de sincronización en la nube propio."
 
-```
-- type: section_title
-  text: "2. Información almacenada en su dispositivo"
-- type: paragraph
-  text: "%1$s almacena cierta información localmente para que sus funciones puedan operar."
-- type: paragraph
-  text: "Esta información puede incluir:"
-- type: bullet_list
-  items:
-    - "Notas creadas, editadas o guardadas por usted."
-    - "Parámetros de Acciones Predefinidas, como números de teléfono, direcciones de correo electrónico, contenido de mensajes, direcciones web y texto preparado para compartir."
-    - "Preferencias de la aplicación, incluido el tema claro u oscuro seleccionado."
-    - "Otros ajustes almacenados localmente necesarios para preservar la configuración de la aplicación."
-- type: paragraph
-  text: "Esta información se almacena en el almacenamiento privado de la aplicación de %1$s."
-- type: paragraph
-  text: "%1$s no envía intencionadamente el contenido de sus notas o parámetros de Acciones Predefinidas a CarlosSalaDev o Firebase. Sin embargo, esta información puede salir del dispositivo cuando:"
-- type: bullet_list
-  items:
-    - "Usted ejecuta intencionadamente una Acción Predefinida."
-    - "Usted envía información a través de una aplicación externa."
-    - "Android realiza una copia de seguridad o transferencia de dispositivo, como se describe a continuación."
+    - type: section_title
+      text: "2. Información almacenada en su dispositivo"
+    - type: paragraph
+      text: "%1$s almacena cierta información localmente para que sus funciones puedan operar."
+    - type: paragraph
+      text: "Esta información puede incluir:"
+    - type: bullet_list
+      items:
+        - "Notas creadas, editadas o guardadas por usted."
+        - "Parámetros de Acciones Predefinidas, como números de teléfono, direcciones de correo electrónico, contenido de mensajes, direcciones web y texto preparado para compartir."
+        - "Preferencias de la aplicación, incluido el tema claro u oscuro seleccionado."
+        - "Otros ajustes almacenados localmente necesarios para preservar la configuración de la aplicación."
+    - type: paragraph
+      text: "Esta información se almacena en el almacenamiento privado de la aplicación de %1$s."
+    - type: paragraph
+      text: "%1$s no envía intencionadamente el contenido de sus notas o parámetros de Acciones Predefinidas a CarlosSalaDev o Firebase. Sin embargo, esta información puede salir del dispositivo cuando:"
+    - type: bullet_list
+      items:
+        - "Usted ejecuta intencionadamente una Acción Predefinida."
+        - "Usted envía información a través de una aplicación externa."
+        - "Android realiza una copia de seguridad o transferencia de dispositivo, como se describe a continuación."
 
-- type: section_title
-  text: "3. Información accedida o mostrada por %1$s"
-- type: paragraph
-  text: "La sección de Información del Sistema muestra información técnica proporcionada por Android, como el fabricante del dispositivo, el modelo, la versión de Android y otra información del sistema."
-- type: paragraph
-  text: "%1$s muestra esta información para su referencia y no carga intencionadamente el contenido completo de la pantalla de Información del Sistema en un servidor operado por CarlosSalaDev."
-- type: paragraph
-  text: "%1$s no solicita acceso al GPS ni a la ubicación precisa, y no solicita permiso para acceder a:"
-- type: bullet_list
-  items:
-    - "Sus contactos."
-    - "Su historial de llamadas."
-    - "Mensajes SMS recibidos."
-    - "Su bandeja de entrada de correo electrónico."
-    - "Su historial de navegación."
-    - "Su ubicación geográfica precisa."
-- type: paragraph
-  text: "Google Firebase puede procesar por separado cierta información del dispositivo, de la aplicación, de la red y de la ubicación aproximada con fines analíticos y de diagnóstico, tal como se explica en esta Política."
+    - type: section_title
+      text: "3. Información accedida o mostrada por %1$s"
+    - type: paragraph
+      text: "La sección de Información del Sistema muestra información técnica proporcionada por Android, como el fabricante del dispositivo, el modelo, la versión de Android y otra información del sistema."
+    - type: paragraph
+      text: "%1$s muestra esta información para su referencia y no carga intencionadamente el contenido completo de la pantalla de Información del Sistema en un servidor operado por CarlosSalaDev."
+    - type: paragraph
+      text: "%1$s no solicita acceso al GPS ni a la ubicación precisa, y no solicita permiso para acceder a:"
+    - type: bullet_list
+      items:
+        - "Sus contactos."
+        - "Su historial de llamadas."
+        - "Mensajes SMS recibidos."
+        - "Su bandeja de entrada de correo electrónico."
+        - "Su historial de navegación."
+        - "Su ubicación geográfica precisa."
+    - type: paragraph
+      text: "Google Firebase puede procesar por separado cierta información del dispositivo, de la aplicación, de la red y de la ubicación aproximada con fines analíticos y de diagnóstico, tal como se explica en esta Política."
 
-- type: section_title
-  text: "4. Información recopilada automáticamente"
-- type: paragraph
-  text: "%1$s utiliza los servicios de Firebase proporcionados por Google. Dependiendo del servicio de Firebase y de la configuración disponible en el dispositivo, estos servicios pueden procesar automáticamente las siguientes categorías de información:"
-- type: bullet_list
-  items:
-    - "Actividad e interacciones de la aplicación, como inicios de la aplicación, sesiones, compromiso general, eventos recopilados automáticamente y acciones que ocurren inmediatamente antes de un bloqueo."
-    - "Ubicación aproximada, como información de país, región o ciudad derivada de datos de red."
-    - "Información del dispositivo y de la aplicación, como el fabricante, el modelo, la versión del sistema operativo, la versión de la aplicación, el idioma, las características de la pantalla y el tipo de conexión de red."
-    - "Identificadores de dispositivos u otros, como el ID de instalación de Firebase, los identificadores de instalación de Crashlytics, los identificadores de instancia de la aplicación, el ID de publicidad de Android cuando está disponible e información de atribución de instalación."
-    - "Registros de fallos, incluidos los rastreos de la pila e información relevante sobre el estado de la aplicación cuando ocurre un fallo."
-    - "Información de diagnóstico, como información de la sesión, metadatos del dispositivo y circunstancias técnicas relacionadas con problemas de estabilidad."
-- type: paragraph
-  text: "Google Analytics recopila la ubicación aproximada, la información del dispositivo, el recuento de usuarios y las estadísticas de la sesión a través de su implementación predeterminada. La ubicación aproximada puede derivarse de la información de red, como una dirección IP; %1$s no obtiene coordenadas GPS a través de Analytics."
-- type: paragraph
-  text: "%1$s no envía intencionadamente el texto de sus notas, mensajes guardados, números de teléfono configurados, contenido de correo electrónico u otros parámetros de Acciones Predefinidas a Firebase como eventos analíticos personalizados, identificadores de usuario, claves personalizadas de Crashlytics o registros personalizados."
+    - type: section_title
+      text: "4. Información recopilada automáticamente"
+    - type: paragraph
+      text: "%1$s utiliza los servicios de Firebase proporcionados por Google. Dependiendo del servicio de Firebase y de la configuración disponible en el dispositivo, estos servicios pueden procesar automáticamente las siguientes categorías de información:"
+    - type: bullet_list
+      items:
+        - "Actividad e interacciones de la aplicación, como inicios de la aplicación, sesiones, compromiso general, eventos recopilados automáticamente y acciones que ocurren inmediatamente antes de un bloqueo."
+        - "Ubicación aproximada, como información de país, región o ciudad derivada de datos de red."
+        - "Información del dispositivo y de la aplicación, como el fabricante, el modelo, la versión del sistema operativo, la versión de la aplicación, el idioma, las características de la pantalla y el tipo de conexión de red."
+        - "Identificadores de dispositivos u otros, como el ID de instalación de Firebase, los identificadores de instalación de Crashlytics, los identificadores de instancia de la aplicación, el ID de publicidad de Android cuando está disponible e información de atribución de instalación."
+        - "Registros de fallos, incluidos los rastreos de la pila e información relevante sobre el estado de la aplicación cuando ocurre un fallo."
+        - "Información de diagnóstico, como información de la sesión, metadatos del dispositivo y circunstancias técnicas relacionadas con problemas de estabilidad."
+    - type: paragraph
+      text: "Google Analytics recopila la ubicación aproximada, la información del dispositivo, el recuento de usuarios y las estadísticas de la sesión a través de su implementación predeterminada. La ubicación aproximada puede derivarse de la información de red, como una dirección IP; %1$s no obtiene coordenadas GPS a través de Analytics."
+    - type: paragraph
+      text: "%1$s no envía intencionadamente el texto de sus notas, mensajes guardados, números de teléfono configurados, contenido de correo electrónico u otros parámetros de Acciones Predefinidas a Firebase como eventos analíticos personalizados, identificadores de usuario, claves personalizadas de Crashlytics o registros personalizados."
 
-- type: section_title
-  text: "5. Cómo se utiliza la información recopilada automáticamente"
-- type: paragraph
-  text: "La información técnica recopilada automáticamente se utiliza para:"
-- type: bullet_list
-  items:
-    - "Comprender el uso general de %1$s."
-    - "Medir los inicios de la aplicación, las sesiones, el compromiso y las tendencias de uso."
-    - "Identificar fallos y problemas de estabilidad."
-    - "Investigar las circunstancias técnicas que rodean un fallo."
-    - "Mejorar la confiabilidad, el rendimiento, la usabilidad y el desarrollo futuro de %1$s."
-    - "Medir las estadísticas de instalación y atribución de la aplicación."
-    - "Proporcionar y mantener los servicios de Firebase utilizados por %1$s."
-- type: paragraph
-  text: "Firebase afirma que la información del usuario final descrita en su documentación de divulgación de datos de Android está cifrada en tránsito mediante HTTPS."
+    - type: section_title
+      text: "5. Cómo se utiliza la información recopilada automáticamente"
+    - type: paragraph
+      text: "La información técnica recopilada automáticamente se utiliza para:"
+    - type: bullet_list
+      items:
+        - "Comprender el uso general de %1$s."
+        - "Medir los inicios de la aplicación, las sesiones, el compromiso y las tendencias de uso."
+        - "Identificar fallos y problemas de estabilidad."
+        - "Investigar las circunstancias técnicas que rodean un fallo."
+        - "Mejorar la confiabilidad, el rendimiento, la usabilidad y el desarrollo futuro de %1$s."
+        - "Medir las estadísticas de instalación y atribución de la aplicación."
+        - "Proporcionar y mantener los servicios de Firebase utilizados por %1$s."
+    - type: paragraph
+      text: "Firebase afirma que la información del usuario final descrita en su documentación de divulgación de datos de Android está cifrada en tránsito mediante HTTPS."
 
-- type: section_title
-  text: "6. Servicios de Firebase"
-- type: paragraph
-  text: "%1$s utiliza actualmente los servicios de Firebase descritos a continuación."
-- type: subsection_title
-  text: "6.1 Google Analytics for Firebase"
-- type: paragraph
-  text: "Google Analytics ayuda a CarlosSalaDev a comprender el uso general de la aplicación, incluidos los inicios, las sesiones, el compromiso, la distribución geográfica aproximada, las categorías de dispositivos y las tendencias de instalación."
-- type: paragraph
-  text: "La recopilación de Analytics está habilitada de forma predeterminada en la versión actual de %1$s. %1$s no proporciona actualmente un control dentro de la aplicación para deshabilitar la recopilación de Analytics."
-- type: paragraph
-  text: "%1$s no crea intencionadamente eventos de Analytics personalizados que contengan notas, mensajes, direcciones de correo electrónico, números de teléfono u otro contenido introducido en Acciones Predefinidas."
-- type: subsection_title
-  text: "6.2 Firebase Crashlytics"
-- type: paragraph
-  text: "Firebase Crashlytics ayuda a identificar y diagnosticar los fallos que afectan a %1$s."
-- type: paragraph
-  text: "Crashlytics recopila automáticamente información como:"
-- type: bullet_list
-  items:
-    - "Rastreos de la pila cuando la aplicación falla."
-    - "Estado relevante de la aplicación en el momento del fallo."
-    - "Metadatos relevantes del dispositivo."
-    - "Un identificador de instalación de Crashlytics."
-    - "Información de sesión y calidad proporcionada a través de servicios de Firebase relacionados."
-    - "Eventos de Analytics utilizados como rutas de exploración para describir las acciones que ocurren inmediatamente antes de un fallo."
-- type: paragraph
-  text: "%1$s no adjunta intencionadamente notas, contenido de Acciones Predefinidas, números de teléfono, direcciones de correo electrónico o identificadores de usuario de texto libre a los informes de Crashlytics."
-- type: paragraph
-  text: "Firebase distingue entre la información recopilada automáticamente por Crashlytics y las claves personalizadas, los registros, los identificadores y los eventos no fatales que un desarrollador puede agregar opcionalmente."
-- type: paragraph
-  text: "La recopilación de Crashlytics está habilitada de forma predeterminada en la versión actual de %1$s. %1$s no proporciona actualmente un control dentro de la aplicación para deshabilitar la recopilación de Crashlytics."
-- type: subsection_title
-  text: "6.3 Firebase Installations"
-- type: paragraph
-  text: "Firebase Installations genera y recopila un ID de instalación de Firebase asociado con una instalación individual de %1$s."
-- type: paragraph
-  text: "Según Firebase, este identificador identifica una instalación de la aplicación y no tiene como objetivo identificar de forma única a un individuo o un dispositivo físico."
-- type: subsection_title
-  text: "6.4 Firebase Sessions y Data Transport"
-- type: paragraph
-  text: "Firebase Sessions puede procesar metadatos de aplicaciones, metadatos de dispositivos, información de conexión de red e información de uso, como cuando la aplicación entra en primer plano y comienza una nueva sesión."
-- type: paragraph
-  text: "Google Data Transport admite la entrega segura a Firebase de Analytics, Crashlytics y otra información técnica relacionada."
+    - type: section_title
+      text: "6. Servicios de Firebase"
+    - type: paragraph
+      text: "%1$s utiliza actualmente los servicios de Firebase descritos a continuación."
+    - type: subsection_title
+      text: "6.1 Google Analytics for Firebase"
+    - type: paragraph
+      text: "Google Analytics ayuda a CarlosSalaDev a comprender el uso general de la aplicación, incluidos los inicios, las sesiones, el compromiso, la distribución geográfica aproximada, las categorías de dispositivos y las tendencias de instalación."
+    - type: paragraph
+      text: "La recopilación de Analytics está habilitada de forma predeterminada en la versión actual de %1$s. %1$s no proporciona actualmente un control dentro de la aplicación para deshabilitar la recopilación de Analytics."
+    - type: paragraph
+      text: "%1$s no crea intencionadamente eventos de Analytics personalizados que contengan notas, mensajes, direcciones de correo electrónico, números de teléfono u otro contenido introducido en Acciones Predefinidas."
+    - type: subsection_title
+      text: "6.2 Firebase Crashlytics"
+    - type: paragraph
+      text: "Firebase Crashlytics ayuda a identificar y diagnosticar los fallos que afectan a %1$s."
+    - type: paragraph
+      text: "Crashlytics recopila automáticamente información como:"
+    - type: bullet_list
+      items:
+        - "Rastreos de la pila cuando la aplicación falla."
+        - "Estado relevante de la aplicación en el momento del fallo."
+        - "Metadatos relevantes del dispositivo."
+        - "Un identificador de instalación de Crashlytics."
+        - "Información de sesión y calidad proporcionada a través de servicios de Firebase relacionados."
+        - "Eventos de Analytics utilizados como rutas de exploración para describir las acciones que ocurren inmediatamente antes de un fallo."
+    - type: paragraph
+      text: "%1$s no adjunta intencionadamente notas, contenido de Acciones Predefinidas, números de teléfono, direcciones de correo electrónico o identificadores de usuario de texto libre a los informes de Crashlytics."
+    - type: paragraph
+      text: "Firebase distingue entre la información recopilada automáticamente por Crashlytics y las claves personalizadas, los registros, los identificadores y los eventos no fatales que un desarrollador puede agregar opcionalmente."
+    - type: paragraph
+      text: "La recopilación de Crashlytics está habilitada de forma predeterminada en la versión actual de %1$s. %1$s no proporciona actualmente un control dentro de la aplicación para deshabilitar la recopilación de Crashlytics."
+    - type: subsection_title
+      text: "6.3 Firebase Installations"
+    - type: paragraph
+      text: "Firebase Installations genera y recopila un ID de instalación de Firebase asociado con una instalación individual de %1$s."
+    - type: paragraph
+      text: "Según Firebase, este identificador identifica una instalación de la aplicación y no tiene como objetivo identificar de forma única a un individuo o un dispositivo físico."
+    - type: subsection_title
+      text: "6.4 Firebase Sessions y Data Transport"
+    - type: paragraph
+      text: "Firebase Sessions puede procesar metadatos de aplicaciones, metadatos de dispositivos, información de conexión de red e información de uso, como cuando la aplicación entra en primer plano y comienza una nueva sesión."
+    - type: paragraph
+      text: "Google Data Transport admite la entrega segura a Firebase de Analytics, Crashlytics y otra información técnica relacionada."
 
-- type: section_title
-  text: "7. ID de publicidad y publicidad"
-- type: paragraph
-  text: "%1$s no muestra anuncios."
-- type: paragraph
-  text: "Google Analytics puede acceder al ID de publicidad de Android y a los servicios de atribución de publicidad cuando estén disponibles en el dispositivo. Estos pueden ser utilizados para:"
-- type: bullet_list
-  items:
-    - "Analítica."
-    - "Medición."
-    - "Atribución de instalación."
-    - "Comprender las tendencias generales de instalación y uso."
-- type: paragraph
-  text: "CarlosSalaDev no utiliza el ID de publicidad para mostrar anuncios dentro de %1$s."
-- type: paragraph
-  text: "La disponibilidad y el comportamiento del ID de publicidad pueden depender de la versión de Android, los servicios de Google Play, la configuración del dispositivo y los controles de privacidad seleccionados por el usuario."
+    - type: section_title
+      text: "7. ID de publicidad y publicidad"
+    - type: paragraph
+      text: "%1$s no muestra anuncios."
+    - type: paragraph
+      text: "Google Analytics puede acceder al ID de publicidad de Android y a los servicios de atribución de publicidad cuando estén disponibles en el dispositivo. Estos pueden ser utilizados para:"
+    - type: bullet_list
+      items:
+        - "Analítica."
+        - "Medición."
+        - "Atribución de instalación."
+        - "Comprender las tendencias generales de instalación y uso."
+    - type: paragraph
+      text: "CarlosSalaDev no utiliza el ID de publicidad para mostrar anuncios dentro de %1$s."
+    - type: paragraph
+      text: "La disponibilidad y el comportamiento del ID de publicidad pueden depender de la versión de Android, los servicios de Google Play, la configuración del dispositivo y los controles de privacidad seleccionados por el usuario."
 
-- type: section_title
-  text: "8. Permiso de teléfono"
-- type: paragraph
-  text: "%1$s solicita el permiso CALL_PHONE de Android solo cuando utiliza Llamar Número y la llamada directa requiere ese permiso."
-- type: paragraph
-  text: "Si deniega el permiso, %1$s no iniciará la llamada directa. En su lugar, puede utilizar Marcar Número, que abre el número configurado en una aplicación de teléfono compatible para que pueda revisarlo e iniciar la llamada manualmente."
-- type: paragraph
-  text: "%1$s no utiliza el permiso de teléfono para:"
-- type: bullet_list
-  items:
-    - "Acceder a sus contactos."
-    - "Leer su historial de llamadas."
-    - "Grabar conversaciones telefónicas."
-    - "Monitorear llamadas."
-    - "Iniciar llamadas sin una acción realizada por usted."
-- type: paragraph
-  text: "El número de teléfono configurado permanece almacenado localmente a menos que se incluya en una copia de seguridad de Android o se pase intencionadamente a la aplicación de teléfono cuando ejecute la acción."
+    - type: section_title
+      text: "8. Permiso de teléfono"
+    - type: paragraph
+      text: "%1$s solicita el permiso CALL_PHONE de Android solo cuando utiliza Llamar Número y la llamada directa requiere ese permiso."
+    - type: paragraph
+      text: "Si deniega el permiso, %1$s no iniciará la llamada directa. En su lugar, puede utilizar Marcar Número, que abre el número configurado en una aplicación de teléfono compatible para que pueda revisarlo e iniciar la llamada manualmente."
+    - type: paragraph
+      text: "%1$s no utiliza el permiso de teléfono para:"
+    - type: bullet_list
+      items:
+        - "Acceder a sus contactos."
+        - "Leer su historial de llamadas."
+        - "Grabar conversaciones telefónicas."
+        - "Monitorear llamadas."
+        - "Iniciar llamadas sin una acción realizada por usted."
+    - type: paragraph
+      text: "El número de teléfono configurado permanece almacenado localmente a menos que se incluya en una copia de seguridad de Android o se pase intencionadamente a la aplicación de teléfono cuando ejecute la acción."
 
-- type: section_title
-  text: "9. Acciones Predefinidas y aplicaciones externas"
-- type: paragraph
-  text: "%1$s incluye las siguientes Acciones Predefinidas:"
-- type: bullet_list
-  items:
-    - "Enviar Correo."
-    - "Enviar SMS."
-    - "Abrir Navegador."
-    - "Llamar Número."
-    - "Marcar Número."
-    - "Compartir Texto."
-- type: paragraph
-  text: "Cuando ejecuta una de estas acciones, %1$s puede pasar la información configurada al componente de Android correspondiente o a una aplicación externa compatible."
-- type: paragraph
-  text: "Por ejemplo, %1$s puede pasar:"
-- type: bullet_list
-  items:
-    - "Un destinatario, asunto y mensaje a una aplicación de correo electrónico."
-    - "Un número de teléfono y un mensaje a una aplicación de SMS."
-    - "Una dirección web a un navegador."
-    - "Un número de teléfono a una aplicación de teléfono o marcador."
-    - "Texto guardado en una aplicación seleccionada a través de la interfaz de uso compartido de Android."
-- type: paragraph
-  text: "Estas transferencias ocurren solo después de que usted ejecute intencionadamente la acción correspondiente."
-- type: paragraph
-  text: "%1$s no lee automáticamente la información creada, recibida o almacenada posteriormente por esas aplicaciones externas."
-- type: paragraph
-  text: "Una vez que la información se pasa a una aplicación externa, su procesamiento posterior se rige por esa aplicación y su proveedor. CarlosSalaDev no controla la privacidad, seguridad, transmisión, retención o uso posterior de la información por parte de aplicaciones independientes de terceros."
-- type: paragraph
-  text: "Debe revisar las prácticas de privacidad de una aplicación externa antes de enviar información confidencial a través de ella."
+    - type: section_title
+      text: "9. Acciones Predefinidas y aplicaciones externas"
+    - type: paragraph
+      text: "%1$s incluye las siguientes Acciones Predefinidas:"
+    - type: bullet_list
+      items:
+        - "Enviar Correo."
+        - "Enviar SMS."
+        - "Abrir Navegador."
+        - "Llamar Número."
+        - "Marcar Número."
+        - "Compartir Texto."
+    - type: paragraph
+      text: "Cuando ejecuta una de estas acciones, %1$s puede pasar la información configurada al componente de Android correspondiente o a una aplicación externa compatible."
+    - type: paragraph
+      text: "Por ejemplo, %1$s puede pasar:"
+    - type: bullet_list
+      items:
+        - "Un destinatario, asunto y mensaje a una aplicación de correo electrónico."
+        - "Un número de teléfono y un mensaje a una aplicación de SMS."
+        - "Una dirección web a un navegador."
+        - "Un número de teléfono a una aplicación de teléfono o marcador."
+        - "Texto guardado en una aplicación seleccionada a través de la interfaz de uso compartido de Android."
+    - type: paragraph
+      text: "Estas transferencias ocurren solo después de que usted ejecute intencionadamente la acción correspondiente."
+    - type: paragraph
+      text: "%1$s no lee automáticamente la información creada, recibida o almacenada posteriormente por esas aplicaciones externas."
+    - type: paragraph
+      text: "Una vez que la información se pasa a una aplicación externa, su procesamiento posterior se rige por esa aplicación y su proveedor. CarlosSalaDev no controla la privacidad, seguridad, transmisión, retención o uso posterior de la información por parte de aplicaciones independientes de terceros."
+    - type: paragraph
+      text: "Debe revisar las prácticas de privacidad de una aplicación externa antes de enviar información confidencial a través de ella."
 
-- type: section_title
-  text: "10. Copias de seguridad de Android y transferencias de dispositivos"
-- type: paragraph
-  text: "%1$s permite las funciones de copia de seguridad y transferencia de dispositivos de Android."
-- type: paragraph
-  text: "Dependiendo de su versión de Android, el fabricante del dispositivo, la configuración de la cuenta de Google, el proveedor de copia de seguridad y las preferencias personales, Android puede realizar copias de seguridad o transferir los datos elegibles de %1$s, que incluyen:"
-- type: bullet_list
-  items:
-    - "Notas."
-    - "Parámetros de Acciones Predefinidas."
-    - "Preferencias de la aplicación."
-    - "Archivos de configuración almacenados localmente."
-    - "Bases de datos de la aplicación."
-- type: paragraph
-  text: "La copia de seguridad automática de Android puede incluir archivos, preferencias y bases de datos de aplicaciones privadas elegibles a menos que hayan sido excluidos específicamente. Los datos restaurados pueden volver a aparecer después de reinstalar %1$s o configurar otro dispositivo."
-- type: paragraph
-  text: "Estas copias de seguridad y transferencias son gestionadas por Android, Google, el fabricante correspondiente o el proveedor de copias de seguridad. CarlosSalaDev no recibe, inspecciona ni controla directamente el contenido de sus copias de seguridad de Android."
-- type: paragraph
-  text: "Es posible que la desinstalación de %1$s de un dispositivo no elimine una copia de seguridad ya mantenida por Android u otro proveedor."
+    - type: section_title
+      text: "10. Copias de seguridad de Android y transferencias de dispositivos"
+    - type: paragraph
+      text: "%1$s permite las funciones de copia de seguridad y transferencia de dispositivos de Android."
+    - type: paragraph
+      text: "Dependiendo de su versión de Android, el fabricante del dispositivo, la configuración de la cuenta de Google, el proveedor de copia de seguridad y las preferencias personales, Android puede realizar copias de seguridad o transferir los datos elegibles de %1$s, que incluyen:"
+    - type: bullet_list
+      items:
+        - "Notas."
+        - "Parámetros de Acciones Predefinidas."
+        - "Preferencias de la aplicación."
+        - "Archivos de configuración almacenados localmente."
+        - "Bases de datos de la aplicación."
+    - type: paragraph
+      text: "La copia de seguridad automática de Android puede incluir archivos, preferencias y bases de datos de aplicaciones privadas elegibles a menos que hayan sido excluidos específicamente. Los datos restaurados pueden volver a aparecer después de reinstalar %1$s o configurar otro dispositivo."
+    - type: paragraph
+      text: "Estas copias de seguridad y transferencias son gestionadas por Android, Google, el fabricante correspondiente o el proveedor de copias de seguridad. CarlosSalaDev no recibe, inspecciona ni controla directamente el contenido de sus copias de seguridad de Android."
+    - type: paragraph
+      text: "Es posible que la desinstalación de %1$s de un dispositivo no elimine una copia de seguridad ya mantenida por Android u otro proveedor."
 
-- type: section_title
-  text: "11. Comunicaciones de soporte"
-- type: paragraph
-  text: "Si se pone en contacto con CarlosSalaDev utilizando la dirección de correo electrónico de soporte, se podrá recibir la siguiente información:"
-- type: bullet_list
-  items:
-    - "Su dirección de correo electrónico."
-    - "Su nombre, si aparece en su cuenta de correo electrónico o mensaje."
-    - "El contenido de su mensaje."
-    - "Capturas de pantalla, archivos u otra información que adjunte voluntariamente."
-    - "Información técnica que elija proporcionar sobre su dispositivo o el problema encontrado."
-- type: paragraph
-  text: "Esta información se puede utilizar para:"
-- type: bullet_list
-  items:
-    - "Responder a su solicitud."
-    - "Proporcionar asistencia."
-    - "Investigar los errores informados."
-    - "Revisar los comentarios o sugerencias de funciones."
-    - "Mantener registros razonables de las comunicaciones de soporte."
-- type: paragraph
-  text: "%1$s no envía automáticamente correos electrónicos de soporte, notas, parámetros de Acciones Predefinidas, archivos de diagnóstico u otro contenido personal a CarlosSalaDev. Usted decide si enviar un mensaje y qué información incluir."
-- type: paragraph
-  text: "No envíe contraseñas, información de tarjetas de pago, códigos de autenticación u otra información altamente confidencial a través del correo electrónico de soporte."
+    - type: section_title
+      text: "11. Comunicaciones de soporte"
+    - type: paragraph
+      text: "Si se pone en contacto con CarlosSalaDev utilizando la dirección de correo electrónico de soporte, se podrá recibir la siguiente información:"
+    - type: bullet_list
+      items:
+        - "Su dirección de correo electrónico."
+        - "Su nombre, si aparece en su cuenta de correo electrónico o mensaje."
+        - "El contenido de su mensaje."
+        - "Capturas de pantalla, archivos u otra información que adjunte voluntariamente."
+        - "Información técnica que elija proporcionar sobre su dispositivo o el problema encontrado."
+    - type: paragraph
+      text: "Esta información se puede utilizar para:"
+    - type: bullet_list
+      items:
+        - "Responder a su solicitud."
+        - "Proporcionar asistencia."
+        - "Investigar los errores informados."
+        - "Revisar los comentarios o sugerencias de funciones."
+        - "Mantener registros razonables de las comunicaciones de soporte."
+    - type: paragraph
+      text: "%1$s no envía automáticamente correos electrónicos de soporte, notas, parámetros de Acciones Predefinidas, archivos de diagnóstico u otro contenido personal a CarlosSalaDev. Usted decide si enviar un mensaje y qué información incluir."
+    - type: paragraph
+      text: "No envíe contraseñas, información de tarjetas de pago, códigos de autenticación u otra información altamente confidencial a través del correo electrónico de soporte."
 
-- type: section_title
-  text: "12. Procesamiento de datos, transferencias y proveedores de servicios"
-- type: paragraph
-  text: "CarlosSalaDev no vende información personal recopilada a través de %1$s."
-- type: paragraph
-  text: "Google y Firebase procesan información técnica como proveedores de servicios para Analytics, Crashlytics, identificación de instalación, medición de sesiones, atribución y transporte de datos."
-- type: paragraph
-  text: "Firebase afirma que no transfiere la información descrita en su documentación de divulgación de Android a terceros, excepto a subencargados del tratamiento que ayudan a proporcionar servicios de Firebase o de acuerdo con las integraciones e instrucciones habilitadas por el desarrollador."
-- type: paragraph
-  text: "La información también se puede transferir:"
-- type: bullet_list
-  items:
-    - "A una aplicación externa cuando ejecuta intencionadamente una Acción Predefinida."
-    - "A través de servicios de copia de seguridad o transferencia de dispositivos de Android, de acuerdo con su configuración."
-    - "A su proveedor de correo electrónico y a CarlosSalaDev cuando se ponga en contacto voluntariamente con el servicio de soporte."
-    - "Cuando sea necesario para cumplir con la ley aplicable, un proceso legal o una solicitud gubernamental válida."
-    - "Cuando sea razonablemente necesario para proteger los derechos legales, la seguridad, la integridad de %1$s o la seguridad de otras personas."
-- type: paragraph
-  text: "%1$s no utiliza un backend independiente operado por CarlosSalaDev para recibir notas, contenido de Acciones Predefinidas u otro contenido de usuario almacenado localmente."
+    - type: section_title
+      text: "12. Procesamiento de datos, transferencias y proveedores de servicios"
+    - type: paragraph
+      text: "CarlosSalaDev no vende información personal recopilada a través de %1$s."
+    - type: paragraph
+      text: "Google y Firebase procesan información técnica como proveedores de servicios para Analytics, Crashlytics, identificación de instalación, medición de sesiones, atribución y transporte de datos."
+    - type: paragraph
+      text: "Firebase afirma que no transfiere la información descrita en su documentación de divulgación de Android a terceros, excepto a subencargados del tratamiento que ayudan a proporcionar servicios de Firebase o de acuerdo con las integraciones e instrucciones habilitadas por el desarrollador."
+    - type: paragraph
+      text: "La información también se puede transferir:"
+    - type: bullet_list
+      items:
+        - "A una aplicación externa cuando ejecuta intencionadamente una Acción Predefinida."
+        - "A través de servicios de copia de seguridad o transferencia de dispositivos de Android, de acuerdo con su configuración."
+        - "A su proveedor de correo electrónico y a CarlosSalaDev cuando se ponga en contacto voluntariamente con el servicio de soporte."
+        - "Cuando sea necesario para cumplir con la ley aplicable, un proceso legal o una solicitud gubernamental válida."
+        - "Cuando sea razonablemente necesario para proteger los derechos legales, la seguridad, la integridad de %1$s o la seguridad de otras personas."
+    - type: paragraph
+      text: "%1$s no utiliza un backend independiente operado por CarlosSalaDev para recibir notas, contenido de Acciones Predefinidas u otro contenido de usuario almacenado localmente."
 
-- type: section_title
-  text: "13. Retención y eliminación de datos"
-- type: subsection_title
-  text: "13.1 Datos almacenados localmente"
-- type: paragraph
-  text: "Las notas, las preferencias y los parámetros de las Acciones Predefinidas generalmente permanecen en el dispositivo hasta que usted:"
-- type: bullet_list
-  items:
-    - "Los edite o elimine dentro de %1$s."
-    - "Borre el almacenamiento de %1$s a través de la configuración de Android."
-    - "Desinstale %1$s."
-- type: paragraph
-  text: "Los datos eliminados localmente pueden volver a aparecer más tarde si Android los restaura desde una copia de seguridad existente."
-- type: subsection_title
-  text: "13.2 Datos técnicos de Firebase"
-- type: paragraph
-  text: "La información de Analytics, Crashlytics, instalación, sesión y diagnóstico se retiene de acuerdo con la configuración aplicable del proyecto de Firebase y Google Analytics y las prácticas de retención y eliminación de Google."
-- type: paragraph
-  text: "Los períodos de retención pueden variar según el servicio de Firebase, el tipo de información y la configuración del proyecto de Firebase o Google Analytics asociado."
-- type: paragraph
-  text: "CarlosSalaDev no mantiene una cuenta de %1$s que vincule directamente los registros técnicos de Firebase con su nombre, dirección de correo electrónico o un perfil de usuario de %1$s."
-- type: paragraph
-  text: "%1$s no proporciona una función de eliminación de cuenta porque la aplicación no crea cuentas de usuario."
-- type: subsection_title
-  text: "13.3 Comunicaciones de soporte"
-- type: paragraph
-  text: "Los correos electrónicos de soporte se pueden conservar durante el tiempo que sea razonablemente necesario para:"
-- type: bullet_list
-  items:
-    - "Responder a su solicitud."
-    - "Investigar un problema informado."
-    - "Mantener registros de soporte."
-    - "Proteger los derechos legales."
-    - "Cumplir con las obligaciones aplicables."
-- type: paragraph
-  text: "Puede ponerse en contacto con CarlosSalaDev si tiene preguntas sobre la información que proporcionó voluntariamente a través del soporte."
+    - type: section_title
+      text: "13. Retención y eliminación de datos"
+    - type: subsection_title
+      text: "13.1 Datos almacenados localmente"
+    - type: paragraph
+      text: "Las notas, las preferencias y los parámetros de las Acciones Predefinidas generalmente permanecen en el dispositivo hasta que usted:"
+    - type: bullet_list
+      items:
+        - "Los edite o elimine dentro de %1$s."
+        - "Borre el almacenamiento de %1$s a través de la configuración de Android."
+        - "Desinstale %1$s."
+    - type: paragraph
+      text: "Los datos eliminados localmente pueden volver a aparecer más tarde si Android los restaura desde una copia de seguridad existente."
+    - type: subsection_title
+      text: "13.2 Datos técnicos de Firebase"
+    - type: paragraph
+      text: "La información de Analytics, Crashlytics, instalación, sesión y diagnóstico se retiene de acuerdo con la configuración aplicable del proyecto de Firebase y Google Analytics y las prácticas de retención y eliminación de Google."
+    - type: paragraph
+      text: "Los períodos de retención pueden variar según el servicio de Firebase, el tipo de información y la configuración del proyecto de Firebase o Google Analytics asociado."
+    - type: paragraph
+      text: "CarlosSalaDev no mantiene una cuenta de %1$s que vincule directamente los registros técnicos de Firebase con su nombre, dirección de correo electrónico o un perfil de usuario de %1$s."
+    - type: paragraph
+      text: "%1$s no proporciona una función de eliminación de cuenta porque la aplicación no crea cuentas de usuario."
+    - type: subsection_title
+      text: "13.3 Comunicaciones de soporte"
+    - type: paragraph
+      text: "Los correos electrónicos de soporte se pueden conservar durante el tiempo que sea razonablemente necesario para:"
+    - type: bullet_list
+      items:
+        - "Responder a su solicitud."
+        - "Investigar un problema informado."
+        - "Mantener registros de soporte."
+        - "Proteger los derechos legales."
+        - "Cumplir con las obligaciones aplicables."
+    - type: paragraph
+      text: "Puede ponerse en contacto con CarlosSalaDev si tiene preguntas sobre la información que proporcionó voluntariamente a través del soporte."
 
-- type: section_title
-  text: "14. Seguridad de los datos"
-- type: paragraph
-  text: "CarlosSalaDev se basa en las medidas de seguridad proporcionadas por Android, Google y Firebase para reducir el riesgo de acceso no autorizado, alteración, divulgación o pérdida."
-- type: paragraph
-  text: "Estas medidas incluyen:"
-- type: bullet_list
-  items:
-    - "Almacenamiento de aplicaciones privadas de Android para información almacenada localmente."
-    - "Controles de permisos de Android para llamadas telefónicas directas."
-    - "Transmisión HTTPS cifrada para datos de Firebase."
-    - "Controles de acceso mantenidos por Firebase y Google."
-    - "Protecciones de copia de seguridad administradas por Android y el proveedor de copia de seguridad seleccionado."
-- type: paragraph
-  text: "Firebase afirma que la información del usuario final descrita en su documentación de divulgación de datos de Android está cifrada en tránsito mediante HTTPS."
-- type: paragraph
-  text: "Ningún método de almacenamiento o transmisión puede garantizarse como completamente seguro. Debe evitar almacenar información altamente confidencial en Notas o Acciones Predefinidas a menos que comprenda los riesgos relacionados con el acceso al dispositivo, las copias de seguridad, el uso compartido y las aplicaciones externas."
+    - type: section_title
+      text: "14. Seguridad de los datos"
+    - type: paragraph
+      text: "CarlosSalaDev se basa en las medidas de seguridad proporcionadas por Android, Google y Firebase para reducir el riesgo de acceso no autorizado, alteración, divulgación o pérdida."
+    - type: paragraph
+      text: "Estas medidas incluyen:"
+    - type: bullet_list
+      items:
+        - "Almacenamiento de aplicaciones privadas de Android para información almacenada localmente."
+        - "Controles de permisos de Android para llamadas telefónicas directas."
+        - "Transmisión HTTPS cifrada para datos de Firebase."
+        - "Controles de acceso mantenidos por Firebase y Google."
+        - "Protecciones de copia de seguridad administradas por Android y el proveedor de copia de seguridad seleccionado."
+    - type: paragraph
+      text: "Firebase afirma que la información del usuario final descrita en su documentación de divulgación de datos de Android está cifrada en tránsito mediante HTTPS."
+    - type: paragraph
+      text: "Ningún método de almacenamiento o transmisión puede garantizarse como completamente seguro. Debe evitar almacenar información altamente confidencial en Notas o Acciones Predefinidas a menos que comprenda los riesgos relacionados con el acceso al dispositivo, las copias de seguridad, el uso compartido y las aplicaciones externas."
 
-- type: section_title
-  text: "15. Privacidad infantil"
-- type: paragraph
-  text: "%1$s está destinada a usuarios de 18 años o más y no está diseñada ni dirigida específicamente a niños."
-- type: paragraph
-  text: "La aplicación no proporciona:"
-- type: bullet_list
-  items:
-    - "Cuentas o perfiles de usuario."
-    - "Interacción social entre usuarios."
-    - "Formularios que soliciten el nombre, la dirección, la dirección de correo electrónico u otra información de identificación de un niño."
-    - "Publicidad dirigida a niños."
-- type: paragraph
-  text: "Si cree que un niño ha enviado voluntariamente información personal al correo electrónico de soporte, póngase en contacto con CarlosSalaDev para que se pueda revisar la comunicación y considerar las medidas adecuadas."
+    - type: section_title
+      text: "15. Privacidad infantil"
+    - type: paragraph
+      text: "%1$s está destinada a usuarios de 18 años o más y no está diseñada ni dirigida específicamente a niños."
+    - type: paragraph
+      text: "La aplicación no proporciona:"
+    - type: bullet_list
+      items:
+        - "Cuentas o perfiles de usuario."
+        - "Interacción social entre usuarios."
+        - "Formularios que soliciten el nombre, la dirección, la dirección de correo electrónico u otra información de identificación de un niño."
+        - "Publicidad dirigida a niños."
+    - type: paragraph
+      text: "Si cree que un niño ha enviado voluntariamente información personal al correo electrónico de soporte, póngase en contacto con CarlosSalaDev para que se pueda revisar la comunicación y considerar las medidas adecuadas."
 
-- type: section_title
-  text: "16. Sus opciones"
-- type: paragraph
-  text: "Puede controlar cierta información y funciones mediante:"
-- type: bullet_list
-  items:
-    - "La elección de qué contenido guardar en Notas y Acciones Predefinidas."
-    - "La edición o eliminación del contenido almacenado localmente."
-    - "La denegación del permiso CALL_PHONE y el uso de Marcar Número en su lugar."
-    - "La decisión de completar o cancelar una acción después de que se abra una aplicación externa."
-    - "El borrado del almacenamiento de %1$s a través de la configuración de Android."
-    - "La desinstalación de %1$s."
-    - "La gestión de las preferencias de copia de seguridad y transferencia de dispositivos de Android."
-    - "La gestión del ID de publicidad y otros controles de privacidad proporcionados por Android y Google."
-    - "La decisión de si ponerse en contacto con el soporte técnico y qué información incluir."
-- type: paragraph
-  text: "La versión actual de %1$s no incluye:"
-- type: bullet_list
-  items:
-    - "Una cuenta de %1$s."
-    - "Un proceso de eliminación de cuenta."
-    - "Un servicio de sincronización en la nube patentado."
-    - "Un control dentro de la aplicación para deshabilitar Firebase Analytics."
-    - "Un control dentro de la aplicación para deshabilitar Firebase Crashlytics."
+    - type: section_title
+      text: "16. Sus opciones"
+    - type: paragraph
+      text: "Puede controlar cierta información y funciones mediante:"
+    - type: bullet_list
+      items:
+        - "La elección de qué contenido guardar en Notas y Acciones Predefinidas."
+        - "La edición o eliminación del contenido almacenado localmente."
+        - "La denegación del permiso CALL_PHONE y el uso de Marcar Número en su lugar."
+        - "La decisión de completar o cancelar una acción después de que se abra una aplicación externa."
+        - "El borrado del almacenamiento de %1$s a través de la configuración de Android."
+        - "La desinstalación de %1$s."
+        - "La gestión de las preferencias de copia de seguridad y transferencia de dispositivos de Android."
+        - "La gestión del ID de publicidad y otros controles de privacidad proporcionados por Android y Google."
+        - "La decisión de si ponerse en contacto con el soporte técnico y qué información incluir."
+    - type: paragraph
+      text: "La versión actual de %1$s no incluye:"
+    - type: bullet_list
+      items:
+        - "Una cuenta de %1$s."
+        - "Un proceso de eliminación de cuenta."
+        - "Un servicio de sincronización en la nube patentado."
+        - "Un control dentro de la aplicación para deshabilitar Firebase Analytics."
+        - "Un control dentro de la aplicación para deshabilitar Firebase Crashlytics."
 
-- type: section_title
-  text: "17. Servicios y políticas de terceros"
-- type: paragraph
-  text: "Google, Firebase, Android, las aplicaciones externas, los proveedores de correo electrónico, los fabricantes de dispositivos y los proveedores de copias de seguridad pueden procesar información bajo sus propios términos y políticas de privacidad."
-- type: paragraph
-  text: "Esta Política de Privacidad describe las prácticas de %1$s y CarlosSalaDev. No reemplaza ni controla las políticas de privacidad de los servicios independientes de terceros."
+    - type: section_title
+      text: "17. Servicios y políticas de terceros"
+    - type: paragraph
+      text: "Google, Firebase, Android, las aplicaciones externas, los proveedores de correo electrónico, los fabricantes de dispositivos y los proveedores de copias de seguridad pueden procesar información bajo sus propios términos y políticas de privacidad."
+    - type: paragraph
+      text: "Esta Política de Privacidad describe las prácticas de %1$s y CarlosSalaDev. No reemplaza ni controla las políticas de privacidad de los servicios independientes de terceros."
 
-- type: section_title
-  text: "18. Cambios en esta Política de Privacidad"
-- type: paragraph
-  text: "Esta Política de Privacidad puede actualizarse cuando cambien las funciones, los permisos, los proveedores de servicios, las prácticas de datos o las obligaciones legales de %1$s."
-- type: paragraph
-  text: "La Política revisada se publicará con una fecha de última actualización actualizada."
-- type: paragraph
-  text: "Los usuarios deben revisar esta Política periódicamente, especialmente después de instalar una actualización significativa de %1$s."
-- type: paragraph
-  text: "Se pueden agregar, eliminar o ampliar secciones a medida que %1$s evolucione. Esta Política describirá las características y las prácticas de datos de la aplicación publicada actualmente y no describirá las características que aún no se han implementado."
+    - type: section_title
+      text: "18. Cambios en esta Política de Privacidad"
+    - type: paragraph
+      text: "Esta Política de Privacidad puede actualizarse cuando cambien las funciones, los permisos, los proveedores de servicios, las prácticas de datos o las obligaciones legales de %1$s."
+    - type: paragraph
+      text: "La Política revisada se publicará con una fecha de última actualización actualizada."
+    - type: paragraph
+      text: "Los usuarios deben revisar esta Política periódicamente, especialmente después de instalar una actualización significativa de %1$s."
+    - type: paragraph
+      text: "Se pueden agregar, eliminar o ampliar secciones a medida que %1$s evolucione. Esta Política describirá las características y las prácticas de datos de la aplicación publicada actualmente y no describirá las características que aún no se han implementado."
 
-- type: section_title
-  text: "19. Contacto"
-- type: paragraph
-  text: "Para preguntas sobre privacidad, solicitudes de soporte, informes de errores o comentarios, póngase en contacto con:"
-- type: paragraph
-  text: "Desarrollador: CarlosSalaDev"
-- type: paragraph
-  text: "Aplicación: %1$s"
-- type: email_link
-  label: "Correo electrónico"
-  email: "carlossala.apps@gmail.com"
-```
+    - type: section_title
+      text: "19. Contacto"
+    - type: paragraph
+      text: "Para preguntas sobre privacidad, solicitudes de soporte, informes de errores o comentarios, póngase en contacto con:"
+    - type: paragraph
+      text: "Desarrollador: CarlosSalaDev"
+    - type: paragraph
+      text: "Aplicación: %1$s"
+    - type: email_link
+      label: "Correo electrónico"
+      email: "carlossala.apps@gmail.com"
