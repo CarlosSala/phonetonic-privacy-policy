@@ -9,4 +9,4 @@ permalink: /es/
   <a href="/phonetonic-privacy-policy/">EN</a>
 </p>
 
-{% include policy_body.md lang="es" %}
+{% include policy_body.md policy_data=site.data.policy_es %}
