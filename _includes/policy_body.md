@@ -1,5 +1,4 @@
-{% assign lang = include.lang %}
-{% assign policy = site.data.policy[lang] %}
+{% assign policy = include.policy_data %}
 
 # {{ policy.title | replace: '%1$s', 'PhoneTonic' }}
 
