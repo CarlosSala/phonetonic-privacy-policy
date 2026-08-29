@@ -23,4 +23,4 @@ description: "Privacy Policy for the PhoneTonic Android application"
   {% endfor %}
 </p>
 
-{% include policy_body.md lang="en" %}
+{% include policy_body.md policy_data=site.data.policy %}
